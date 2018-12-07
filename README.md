@@ -23,16 +23,16 @@ To generate the empathy predictions for the test data, please download the face 
 ```
 mkdir val_predict_raw
 mkdir val_predict
-python DAE_model.py --subject 1 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
-python DAE_model.py --subject 2 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
-python DAE_model.py --subject 3 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
-python DAE_model.py --subject 4 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
-python DAE_model.py --subject 5 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
-python DAE_model.py --subject 6 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
-python DAE_model.py --subject 7 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
-python DAE_model.py --subject 8 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
-python DAE_model.py --subject 9 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
-python DAE_model.py --subject 10 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
+python DAE_model.py --subject 1 --story 3,6,7 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
+python DAE_model.py --subject 2 --story 3,6,7 --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
+python DAE_model.py --subject 3 --story 3,6,7  --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
+python DAE_model.py --subject 4 --story 3,6,7  --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
+python DAE_model.py --subject 5 --story 3,6,7  --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
+python DAE_model.py --subject 6 --story 3,6,7  --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
+python DAE_model.py --subject 7 --story 3,6,7  --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
+python DAE_model.py --subject 8 --story 3,6,7  --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
+python DAE_model.py --subject 9 --story 3,6,7  --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
+python DAE_model.py --subject 10 --story 3,6,7  --notrain_mode --video_val face_test --audio_val audio_test --saver ckpt_final
 ```
 The prediction files will be in the directory *val_predict* in csv format.
 
